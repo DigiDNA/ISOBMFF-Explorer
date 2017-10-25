@@ -28,5 +28,7 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>MDItemKeywords</key>
+	<string>image, video, iso, media, file, format, mpeg, mp4, heif, heiv, heic, parser, quicktime, gui</string>
 </dict>
 </plist>
