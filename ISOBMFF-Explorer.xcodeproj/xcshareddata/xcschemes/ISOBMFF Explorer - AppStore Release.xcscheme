@@ -15,26 +15,35 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "05BFED291F6399D400A6909E"
-               BuildableName = "ISOBMFF-Explorer.app"
-               BlueprintName = "ISOBMFF-Explorer"
+               BuildableName = "ISOBMFF Explorer.app"
+               BlueprintName = "ISOBMFF Explorer"
                ReferencedContainer = "container:ISOBMFF-Explorer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "052341FA1FA12EDA00D54D4F"
+            BuildableName = "ISOBMFF Explorer.app"
+            BlueprintName = "ISOBMFF Explorer - AppStore"
+            ReferencedContainer = "container:ISOBMFF-Explorer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
@@ -48,9 +57,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "05BFED291F6399D400A6909E"
-            BuildableName = "ISOBMFF-Explorer.app"
-            BlueprintName = "ISOBMFF-Explorer"
+            BlueprintIdentifier = "052341FA1FA12EDA00D54D4F"
+            BuildableName = "ISOBMFF Explorer.app"
+            BlueprintName = "ISOBMFF Explorer - AppStore"
             ReferencedContainer = "container:ISOBMFF-Explorer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -58,7 +67,7 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -67,17 +76,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "05BFED291F6399D400A6909E"
-            BuildableName = "ISOBMFF-Explorer.app"
-            BlueprintName = "ISOBMFF-Explorer"
+            BuildableName = "ISOBMFF Explorer.app"
+            BlueprintName = "ISOBMFF Explorer"
             ReferencedContainer = "container:ISOBMFF-Explorer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Release">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

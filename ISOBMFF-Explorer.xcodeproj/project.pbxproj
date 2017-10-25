@@ -10,6 +10,19 @@
 		0510C04E1F670716006920B4 /* StringIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */; };
 		0510C04F1F670716006920B4 /* StringIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */; };
 		051463B21F84C5110063A11F /* libISOBMFF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 051463AB1F84C5010063A11F /* libISOBMFF.a */; };
+		052342001FA12EDA00D54D4F /* StringIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */; };
+		052342011FA12EDA00D54D4F /* BoxItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05AF34F51F6439A6001F54CF /* BoxItem.mm */; };
+		052342021FA12EDA00D54D4F /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED4A1F639F6300A6909E /* AboutWindowController.swift */; };
+		052342031FA12EDA00D54D4F /* FileWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED511F63A22F00A6909E /* FileWindowController.swift */; };
+		052342041FA12EDA00D54D4F /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED4E1F63A05100A6909E /* ApplicationDelegate.swift */; };
+		052342051FA12EDA00D54D4F /* DictionaryIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */; };
+		052342061FA12EDA00D54D4F /* DictionaryIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */; };
+		052342071FA12EDA00D54D4F /* StringIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */; };
+		0523420A1FA12EDA00D54D4F /* libISOBMFF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 051463AB1F84C5010063A11F /* libISOBMFF.a */; };
+		0523420F1FA12EDA00D54D4F /* ISOBMFF_Explorer.AboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFED4C1F639F9D00A6909E /* ISOBMFF_Explorer.AboutWindowController.xib */; };
+		052342101FA12EDA00D54D4F /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 05DFC7CF1F855FBF002E9F6A /* Icon.icns */; };
+		052342111FA12EDA00D54D4F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFED3C1F639A5C00A6909E /* MainMenu.xib */; };
+		052342121FA12EDA00D54D4F /* ISOBMFF_Explorer.FileWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFED461F639D7F00A6909E /* ISOBMFF_Explorer.FileWindowController.xib */; };
 		05812ACD1FA12419003B88DF /* GitHubUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; };
 		05812ACE1FA12419003B88DF /* GitHubUpdates.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		05AF34F61F6439A6001F54CF /* BoxItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05AF34F51F6439A6001F54CF /* BoxItem.mm */; };
@@ -53,6 +66,13 @@
 			remoteGlobalIDString = 0515C8AE1F2A71A8003B8594;
 			remoteInfo = ISOBMFF;
 		};
+		052341FC1FA12EDA00D54D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0515C8AE1F2A71A8003B8594;
+			remoteInfo = ISOBMFF;
+		};
 		05812A6B1FA10986003B88DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */;
@@ -77,6 +97,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0523420C1FA12EDA00D54D4F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05812AD11FA1241A003B88DF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +125,7 @@
 		0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsEmptyValueTransformer.swift; sourceTree = "<group>"; };
 		051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ISOBMFF.xcodeproj; path = Submodules/ISOBMFF/ISOBMFF.xcodeproj; sourceTree = "<group>"; };
 		051F4D1A1F5DD03700E6E12C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		052342161FA12EDA00D54D4F /* ISOBMFF Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISOBMFF Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		057759011F67CF6500987694 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitHubUpdates.xcodeproj; path = Submodules/GitHubUpdates/GitHubUpdates.xcodeproj; sourceTree = "<group>"; };
 		05812A811FA1217F003B88DF /* ISOBMFF-Explorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ISOBMFF-Explorer.entitlements"; sourceTree = "<group>"; };
@@ -102,7 +133,7 @@
 		05AF34F51F6439A6001F54CF /* BoxItem.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BoxItem.mm; sourceTree = "<group>"; };
 		05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryIsNotEmptyValueTransformer.swift; sourceTree = "<group>"; };
 		05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryIsEmptyValueTransformer.swift; sourceTree = "<group>"; };
-		05BFED2A1F6399D400A6909E /* ISOBMFF-Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISOBMFF-Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BFED2A1F6399D400A6909E /* ISOBMFF Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISOBMFF Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BFED341F6399D400A6909E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05BFED3D1F639A5C00A6909E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		05BFED471F639D7F00A6909E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ISOBMFF_Explorer.FileWindowController.xib; sourceTree = "<group>"; };
@@ -115,6 +146,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		052342081FA12EDA00D54D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523420A1FA12EDA00D54D4F /* libISOBMFF.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05BFED271F6399D400A6909E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,7 +192,8 @@
 		0515C8B01F2A71A8003B8594 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05BFED2A1F6399D400A6909E /* ISOBMFF-Explorer.app */,
+				05BFED2A1F6399D400A6909E /* ISOBMFF Explorer.app */,
+				052342161FA12EDA00D54D4F /* ISOBMFF Explorer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,9 +264,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05BFED291F6399D400A6909E /* ISOBMFF-Explorer */ = {
+		052341FA1FA12EDA00D54D4F /* ISOBMFF Explorer - AppStore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05BFED381F6399D400A6909E /* Build configuration list for PBXNativeTarget "ISOBMFF-Explorer" */;
+			buildConfigurationList = 052342131FA12EDA00D54D4F /* Build configuration list for PBXNativeTarget "ISOBMFF Explorer - AppStore" */;
+			buildPhases = (
+				052341FF1FA12EDA00D54D4F /* Sources */,
+				052342081FA12EDA00D54D4F /* Frameworks */,
+				0523420B1FA12EDA00D54D4F /* ShellScript */,
+				0523420C1FA12EDA00D54D4F /* Embed Frameworks */,
+				0523420E1FA12EDA00D54D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052341FB1FA12EDA00D54D4F /* PBXTargetDependency */,
+			);
+			name = "ISOBMFF Explorer - AppStore";
+			productName = "ISOBMFF-Explorer";
+			productReference = 052342161FA12EDA00D54D4F /* ISOBMFF Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05BFED291F6399D400A6909E /* ISOBMFF Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BFED381F6399D400A6909E /* Build configuration list for PBXNativeTarget "ISOBMFF Explorer" */;
 			buildPhases = (
 				05BFED261F6399D400A6909E /* Sources */,
 				05BFED271F6399D400A6909E /* Frameworks */,
@@ -240,9 +300,9 @@
 				051463B11F84C50C0063A11F /* PBXTargetDependency */,
 				05812AD01FA12419003B88DF /* PBXTargetDependency */,
 			);
-			name = "ISOBMFF-Explorer";
+			name = "ISOBMFF Explorer";
 			productName = "ISOBMFF-Explorer";
-			productReference = 05BFED2A1F6399D400A6909E /* ISOBMFF-Explorer.app */;
+			productReference = 05BFED2A1F6399D400A6909E /* ISOBMFF Explorer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -254,6 +314,14 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "XS-Labs";
 				TargetAttributes = {
+					052341FA1FA12EDA00D54D4F = {
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					05BFED291F6399D400A6909E = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
@@ -289,7 +357,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				05BFED291F6399D400A6909E /* ISOBMFF-Explorer */,
+				05BFED291F6399D400A6909E /* ISOBMFF Explorer */,
+				052341FA1FA12EDA00D54D4F /* ISOBMFF Explorer - AppStore */,
 			);
 		};
 /* End PBXProject section */
@@ -333,6 +402,17 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0523420E1FA12EDA00D54D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523420F1FA12EDA00D54D4F /* ISOBMFF_Explorer.AboutWindowController.xib in Resources */,
+				052342101FA12EDA00D54D4F /* Icon.icns in Resources */,
+				052342111FA12EDA00D54D4F /* MainMenu.xib in Resources */,
+				052342121FA12EDA00D54D4F /* ISOBMFF_Explorer.FileWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05BFED281F6399D400A6909E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +427,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0523420B1FA12EDA00D54D4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nif [ \"${CONFIGURATION}\" = \"Release\" ] || [ \"${CONFIGURATION}\" = \"AppStore\" ]; then\n    plist=\"ISOBMFF-Explorer/Info.plist\"\n    rev=$(git rev-list `git branch | grep -e \"^*\" | cut -d' ' -f 2` | wc -l)\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $rev\" \"$plist\"\nfi";
+		};
 		05812A631FA108B1003B88DF /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +456,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		052341FF1FA12EDA00D54D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052342001FA12EDA00D54D4F /* StringIsEmptyValueTransformer.swift in Sources */,
+				052342011FA12EDA00D54D4F /* BoxItem.mm in Sources */,
+				052342021FA12EDA00D54D4F /* AboutWindowController.swift in Sources */,
+				052342031FA12EDA00D54D4F /* FileWindowController.swift in Sources */,
+				052342041FA12EDA00D54D4F /* ApplicationDelegate.swift in Sources */,
+				052342051FA12EDA00D54D4F /* DictionaryIsNotEmptyValueTransformer.swift in Sources */,
+				052342061FA12EDA00D54D4F /* DictionaryIsEmptyValueTransformer.swift in Sources */,
+				052342071FA12EDA00D54D4F /* StringIsNotEmptyValueTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05BFED261F6399D400A6909E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,6 +493,11 @@
 			isa = PBXTargetDependency;
 			name = ISOBMFF;
 			targetProxy = 051463B01F84C50C0063A11F /* PBXContainerItemProxy */;
+		};
+		052341FB1FA12EDA00D54D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISOBMFF;
+			targetProxy = 052341FC1FA12EDA00D54D4F /* PBXContainerItemProxy */;
 		};
 		05812AD01FA12419003B88DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -688,146 +801,13 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
-		05812ACB1FA12309003B88DF /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
-				CLANG_ANALYZER_GCD = YES;
-				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_ANALYZER_OBJC_ATSYNC = YES;
-				CLANG_ANALYZER_OBJC_COLLECTIONS = YES;
-				CLANG_ANALYZER_OBJC_DEALLOC = YES;
-				CLANG_ANALYZER_OBJC_GENERICS = YES;
-				CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES = YES;
-				CLANG_ANALYZER_OBJC_NSCFERROR = YES;
-				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
-				CLANG_ANALYZER_OBJC_SELF_INIT = YES;
-				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK = YES;
-				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_CODE_COVERAGE = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_MODULE_DEBUGGING = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CLANG_LINK_OBJC_RUNTIME = YES;
-				CLANG_MODULES_AUTOLINK = YES;
-				CLANG_STATIC_ANALYZER_MODE = deep;
-				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = deep;
-				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
-				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
-				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES_ERROR;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
-				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
-				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES_AGGRESSIVE;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = c11;
-				GCC_ENABLE_CPP_EXCEPTIONS = YES;
-				GCC_ENABLE_CPP_RTTI = YES;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = "APPSTORE=1";
-				GCC_STRICT_ALIASING = YES;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
-				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
-				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
-				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
-				GCC_WARN_MISSING_PARENTHESES = YES;
-				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
-				GCC_WARN_PEDANTIC = YES;
-				GCC_WARN_SHADOW = YES;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
-				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_LABEL = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VALUE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "";
-				LLVM_LTO = YES_THIN;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPSTORE;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-			};
-			name = AppStore;
-		};
-		05812ACC1FA12309003B88DF /* AppStore */ = {
+		052342141FA12EDA00D54D4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "ISOBMFF-Explorer/ISOBMFF-Explorer.entitlements";
@@ -841,10 +821,31 @@
 				INFOPLIST_FILE = "ISOBMFF-Explorer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DigiDNA.ISOBMFF-Explorer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ISOBMFF Explorer";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "APPSTORE $(inherited)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ISOBMFF-Explorer/Classes/Bridging-Header.h";
 			};
-			name = AppStore;
+			name = Debug;
+		};
+		052342151FA12EDA00D54D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ISOBMFF-Explorer/ISOBMFF-Explorer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5PR93692Y;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Submodules/ISOBMFF/ISOBMFF/include",
+					"$(SRCROOT)/Submodules/ISOBMFF/Submodules/PIMPL/PIMPL/include",
+				);
+				INFOPLIST_FILE = "ISOBMFF-Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DigiDNA.ISOBMFF-Explorer";
+				PRODUCT_NAME = "ISOBMFF Explorer";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "APPSTORE $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ISOBMFF-Explorer/Classes/Bridging-Header.h";
+			};
+			name = Release;
 		};
 		05BFED391F6399D400A6909E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -859,7 +860,7 @@
 				INFOPLIST_FILE = "ISOBMFF-Explorer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DigiDNA.ISOBMFF-Explorer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ISOBMFF Explorer";
 				SWIFT_OBJC_BRIDGING_HEADER = "ISOBMFF-Explorer/Classes/Bridging-Header.h";
 			};
 			name = Debug;
@@ -877,7 +878,7 @@
 				INFOPLIST_FILE = "ISOBMFF-Explorer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DigiDNA.ISOBMFF-Explorer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ISOBMFF Explorer";
 				SWIFT_OBJC_BRIDGING_HEADER = "ISOBMFF-Explorer/Classes/Bridging-Header.h";
 			};
 			name = Release;
@@ -890,17 +891,24 @@
 			buildConfigurations = (
 				0515C8B81F2A71A8003B8594 /* Debug */,
 				0515C8B91F2A71A8003B8594 /* Release */,
-				05812ACB1FA12309003B88DF /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05BFED381F6399D400A6909E /* Build configuration list for PBXNativeTarget "ISOBMFF-Explorer" */ = {
+		052342131FA12EDA00D54D4F /* Build configuration list for PBXNativeTarget "ISOBMFF Explorer - AppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052342141FA12EDA00D54D4F /* Debug */,
+				052342151FA12EDA00D54D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BFED381F6399D400A6909E /* Build configuration list for PBXNativeTarget "ISOBMFF Explorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05BFED391F6399D400A6909E /* Debug */,
 				05BFED3A1F6399D400A6909E /* Release */,
-				05812ACC1FA12309003B88DF /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
