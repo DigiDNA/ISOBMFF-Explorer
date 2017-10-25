@@ -1,0 +1,12 @@
+[submodule "Submodules/PIMPL"]
+	path = Submodules/PIMPL
+	url = https://github.com/macmade/PIMPL.git
+[submodule "Submodules/gmock-xcode"]
+	path = Submodules/gmock-xcode
+	url = https://github.com/macmade/gmock-xcode
+[submodule "Submodules/makelib"]
+	path = Submodules/makelib
+	url = https://github.com/macmade/makelib.git
+[submodule "Submodules/ISOBMFF"]
+	path = Submodules/ISOBMFF
+	url = https://github.com/DigiDNA/ISOBMFF.git

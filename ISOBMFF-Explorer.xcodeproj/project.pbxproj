@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0510C04E1F670716006920B4 /* StringIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */; };
+		0510C04F1F670716006920B4 /* StringIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */; };
+		051463B21F84C5110063A11F /* libISOBMFF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 051463AB1F84C5010063A11F /* libISOBMFF.a */; };
+		05AF34F61F6439A6001F54CF /* BoxItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05AF34F51F6439A6001F54CF /* BoxItem.mm */; };
+		05AF35031F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */; };
+		05AF35181F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */; };
+		05BFED411F639B1300A6909E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFED3C1F639A5C00A6909E /* MainMenu.xib */; };
+		05BFED481F639D7F00A6909E /* ISOBMFF_Explorer.FileWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFED461F639D7F00A6909E /* ISOBMFF_Explorer.FileWindowController.xib */; };
+		05BFED4B1F639F6300A6909E /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED4A1F639F6300A6909E /* AboutWindowController.swift */; };
+		05BFED4F1F63A05100A6909E /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED4E1F63A05100A6909E /* ApplicationDelegate.swift */; };
+		05BFED501F63A1DD00A6909E /* ISOBMFF_Explorer.AboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFED4C1F639F9D00A6909E /* ISOBMFF_Explorer.AboutWindowController.xib */; };
+		05BFED521F63A22F00A6909E /* FileWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED511F63A22F00A6909E /* FileWindowController.swift */; };
+		05DFC7D21F855FCC002E9F6A /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 05DFC7CF1F855FBF002E9F6A /* Icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051463AA1F84C5010063A11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0515C8AF1F2A71A8003B8594;
+			remoteInfo = ISOBMFF;
+		};
+		051463AC1F84C5010063A11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05DA96011F2A7D5B005F46DB;
+			remoteInfo = "ISOBMFF-Tests";
+		};
+		051463AE1F84C5010063A11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05BFED221F63952E00A6909E;
+			remoteInfo = "ISOBMFF-Dump";
+		};
+		051463B01F84C50C0063A11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0515C8AE1F2A71A8003B8594;
+			remoteInfo = ISOBMFF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsNotEmptyValueTransformer.swift; sourceTree = "<group>"; };
+		0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsEmptyValueTransformer.swift; sourceTree = "<group>"; };
+		051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ISOBMFF.xcodeproj; path = Submodules/ISOBMFF/ISOBMFF.xcodeproj; sourceTree = "<group>"; };
+		051F4D1A1F5DD03700E6E12C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		057759011F67CF6500987694 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05AF34F41F6439A6001F54CF /* BoxItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxItem.h; sourceTree = "<group>"; };
+		05AF34F51F6439A6001F54CF /* BoxItem.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BoxItem.mm; sourceTree = "<group>"; };
+		05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryIsNotEmptyValueTransformer.swift; sourceTree = "<group>"; };
+		05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryIsEmptyValueTransformer.swift; sourceTree = "<group>"; };
+		05BFED2A1F6399D400A6909E /* ISOBMFF-Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISOBMFF-Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BFED341F6399D400A6909E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BFED3D1F639A5C00A6909E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05BFED471F639D7F00A6909E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ISOBMFF_Explorer.FileWindowController.xib; sourceTree = "<group>"; };
+		05BFED491F639F6200A6909E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		05BFED4A1F639F6300A6909E /* AboutWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWindowController.swift; sourceTree = "<group>"; };
+		05BFED4D1F639F9D00A6909E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ISOBMFF_Explorer.AboutWindowController.xib; sourceTree = "<group>"; };
+		05BFED4E1F63A05100A6909E /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
+		05BFED511F63A22F00A6909E /* FileWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWindowController.swift; sourceTree = "<group>"; };
+		05DFC7CF1F855FBF002E9F6A /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BFED271F6399D400A6909E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051463B21F84C5110063A11F /* libISOBMFF.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051463A41F84C5010063A11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051463AB1F84C5010063A11F /* libISOBMFF.a */,
+				051463AD1F84C5010063A11F /* ISOBMFF-Tests.xctest */,
+				051463AF1F84C5010063A11F /* ISOBMFF-Dump */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0515C8A61F2A71A8003B8594 = {
+			isa = PBXGroup;
+			children = (
+				051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */,
+				051F4D1A1F5DD03700E6E12C /* README.md */,
+				057759011F67CF6500987694 /* LICENSE */,
+				05BFED2B1F6399D400A6909E /* ISOBMFF-Explorer */,
+				0515C8B01F2A71A8003B8594 /* Products */,
+				05AF34FB1F643A6E001F54CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0515C8B01F2A71A8003B8594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BFED2A1F6399D400A6909E /* ISOBMFF-Explorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05AF34FB1F643A6E001F54CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05BFED2B1F6399D400A6909E /* ISOBMFF-Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				05BFED3E1F639A5C00A6909E /* Classes */,
+				05BFED3B1F639A5C00A6909E /* Interface */,
+				05BFED341F6399D400A6909E /* Info.plist */,
+			);
+			path = "ISOBMFF-Explorer";
+			sourceTree = "<group>";
+		};
+		05BFED3B1F639A5C00A6909E /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				05DFC7CE1F855FBF002E9F6A /* Images */,
+				05BFED3C1F639A5C00A6909E /* MainMenu.xib */,
+				05BFED4C1F639F9D00A6909E /* ISOBMFF_Explorer.AboutWindowController.xib */,
+				05BFED461F639D7F00A6909E /* ISOBMFF_Explorer.FileWindowController.xib */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		05BFED3E1F639A5C00A6909E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05BFED491F639F6200A6909E /* Bridging-Header.h */,
+				05BFED4A1F639F6300A6909E /* AboutWindowController.swift */,
+				05BFED4E1F63A05100A6909E /* ApplicationDelegate.swift */,
+				05BFED511F63A22F00A6909E /* FileWindowController.swift */,
+				05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */,
+				05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */,
+				0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */,
+				0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */,
+				05AF34F41F6439A6001F54CF /* BoxItem.h */,
+				05AF34F51F6439A6001F54CF /* BoxItem.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		05DFC7CE1F855FBF002E9F6A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				05DFC7CF1F855FBF002E9F6A /* Icon.icns */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BFED291F6399D400A6909E /* ISOBMFF-Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BFED381F6399D400A6909E /* Build configuration list for PBXNativeTarget "ISOBMFF-Explorer" */;
+			buildPhases = (
+				05BFED261F6399D400A6909E /* Sources */,
+				05BFED271F6399D400A6909E /* Frameworks */,
+				05BFED281F6399D400A6909E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051463B11F84C50C0063A11F /* PBXTargetDependency */,
+			);
+			name = "ISOBMFF-Explorer";
+			productName = "ISOBMFF-Explorer";
+			productReference = 05BFED2A1F6399D400A6909E /* ISOBMFF-Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0515C8A71F2A71A8003B8594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "XS-Labs";
+				TargetAttributes = {
+					05BFED291F6399D400A6909E = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0515C8AA1F2A71A8003B8594 /* Build configuration list for PBXProject "ISOBMFF-Explorer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0515C8A61F2A71A8003B8594;
+			productRefGroup = 0515C8B01F2A71A8003B8594 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 051463A41F84C5010063A11F /* Products */;
+					ProjectRef = 051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				05BFED291F6399D400A6909E /* ISOBMFF-Explorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		051463AB1F84C5010063A11F /* libISOBMFF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libISOBMFF.a;
+			remoteRef = 051463AA1F84C5010063A11F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		051463AD1F84C5010063A11F /* ISOBMFF-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ISOBMFF-Tests.xctest";
+			remoteRef = 051463AC1F84C5010063A11F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		051463AF1F84C5010063A11F /* ISOBMFF-Dump */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "ISOBMFF-Dump";
+			remoteRef = 051463AE1F84C5010063A11F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BFED281F6399D400A6909E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BFED501F63A1DD00A6909E /* ISOBMFF_Explorer.AboutWindowController.xib in Resources */,
+				05DFC7D21F855FCC002E9F6A /* Icon.icns in Resources */,
+				05BFED411F639B1300A6909E /* MainMenu.xib in Resources */,
+				05BFED481F639D7F00A6909E /* ISOBMFF_Explorer.FileWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BFED261F6399D400A6909E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0510C04F1F670716006920B4 /* StringIsEmptyValueTransformer.swift in Sources */,
+				05AF34F61F6439A6001F54CF /* BoxItem.mm in Sources */,
+				05BFED4B1F639F6300A6909E /* AboutWindowController.swift in Sources */,
+				05BFED521F63A22F00A6909E /* FileWindowController.swift in Sources */,
+				05BFED4F1F63A05100A6909E /* ApplicationDelegate.swift in Sources */,
+				05AF35031F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift in Sources */,
+				05AF35181F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift in Sources */,
+				0510C04E1F670716006920B4 /* StringIsNotEmptyValueTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051463B11F84C50C0063A11F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISOBMFF;
+			targetProxy = 051463B01F84C50C0063A11F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05BFED3C1F639A5C00A6909E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BFED3D1F639A5C00A6909E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		05BFED461F639D7F00A6909E /* ISOBMFF_Explorer.FileWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BFED471F639D7F00A6909E /* Base */,
+			);
+			name = ISOBMFF_Explorer.FileWindowController.xib;
+			sourceTree = "<group>";
+		};
+		05BFED4C1F639F9D00A6909E /* ISOBMFF_Explorer.AboutWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BFED4D1F639F9D00A6909E /* Base */,
+			);
+			name = ISOBMFF_Explorer.AboutWindowController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0515C8B81F2A71A8003B8594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
+				CLANG_ANALYZER_GCD = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_OBJC_ATSYNC = YES;
+				CLANG_ANALYZER_OBJC_COLLECTIONS = YES;
+				CLANG_ANALYZER_OBJC_DEALLOC = YES;
+				CLANG_ANALYZER_OBJC_GENERICS = YES;
+				CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES = YES;
+				CLANG_ANALYZER_OBJC_NSCFERROR = YES;
+				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
+				CLANG_ANALYZER_OBJC_SELF_INIT = YES;
+				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK = YES;
+				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CLANG_MODULES_AUTOLINK = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = deep;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES_ERROR;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES_AGGRESSIVE;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_STRICT_ALIASING = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LLVM_LTO = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0515C8B91F2A71A8003B8594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
+				CLANG_ANALYZER_GCD = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_OBJC_ATSYNC = YES;
+				CLANG_ANALYZER_OBJC_COLLECTIONS = YES;
+				CLANG_ANALYZER_OBJC_DEALLOC = YES;
+				CLANG_ANALYZER_OBJC_GENERICS = YES;
+				CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES = YES;
+				CLANG_ANALYZER_OBJC_NSCFERROR = YES;
+				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
+				CLANG_ANALYZER_OBJC_SELF_INIT = YES;
+				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK = YES;
+				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CLANG_MODULES_AUTOLINK = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = deep;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES_ERROR;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES_AGGRESSIVE;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_STRICT_ALIASING = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LLVM_LTO = YES_THIN;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		05BFED391F6399D400A6909E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Submodules/ISOBMFF/ISOBMFF/include",
+					"$(SRCROOT)/Submodules/ISOBMFF/Submodules/PIMPL/PIMPL/include",
+				);
+				INFOPLIST_FILE = "ISOBMFF-Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.ISOBMFF-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ISOBMFF-Explorer/Classes/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		05BFED3A1F6399D400A6909E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Submodules/ISOBMFF/ISOBMFF/include",
+					"$(SRCROOT)/Submodules/ISOBMFF/Submodules/PIMPL/PIMPL/include",
+				);
+				INFOPLIST_FILE = "ISOBMFF-Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.ISOBMFF-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ISOBMFF-Explorer/Classes/Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0515C8AA1F2A71A8003B8594 /* Build configuration list for PBXProject "ISOBMFF-Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0515C8B81F2A71A8003B8594 /* Debug */,
+				0515C8B91F2A71A8003B8594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BFED381F6399D400A6909E /* Build configuration list for PBXNativeTarget "ISOBMFF-Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BFED391F6399D400A6909E /* Debug */,
+				05BFED3A1F6399D400A6909E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0515C8A71F2A71A8003B8594 /* Project object */;
+}
