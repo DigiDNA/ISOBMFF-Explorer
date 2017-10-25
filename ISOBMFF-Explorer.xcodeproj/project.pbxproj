@@ -10,8 +10,8 @@
 		0510C04E1F670716006920B4 /* StringIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */; };
 		0510C04F1F670716006920B4 /* StringIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */; };
 		051463B21F84C5110063A11F /* libISOBMFF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 051463AB1F84C5010063A11F /* libISOBMFF.a */; };
-		05812A711FA109A9003B88DF /* GitHubUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; };
-		05812A741FA109C0003B88DF /* GitHubUpdates.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05812ACD1FA12419003B88DF /* GitHubUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; };
+		05812ACE1FA12419003B88DF /* GitHubUpdates.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		05AF34F61F6439A6001F54CF /* BoxItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05AF34F51F6439A6001F54CF /* BoxItem.mm */; };
 		05AF35031F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */; };
 		05AF35181F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */; };
@@ -67,7 +67,7 @@
 			remoteGlobalIDString = 0555EBA01EF3DDA10016167F;
 			remoteInfo = Relauncher;
 		};
-		05812A751FA109C5003B88DF /* PBXContainerItemProxy */ = {
+		05812ACF1FA12419003B88DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */;
 			proxyType = 1;
@@ -77,14 +77,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		05812A721FA109AD003B88DF /* CopyFiles */ = {
+		05812AD11FA1241A003B88DF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				05812A741FA109C0003B88DF /* GitHubUpdates.framework in CopyFiles */,
+				05812ACE1FA12419003B88DF /* GitHubUpdates.framework in Embed Frameworks */,
 			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -118,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05812A711FA109A9003B88DF /* GitHubUpdates.framework in Frameworks */,
+				05812ACD1FA12419003B88DF /* GitHubUpdates.framework in Frameworks */,
 				051463B21F84C5110063A11F /* libISOBMFF.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,14 +231,14 @@
 				05BFED261F6399D400A6909E /* Sources */,
 				05BFED271F6399D400A6909E /* Frameworks */,
 				05812A631FA108B1003B88DF /* ShellScript */,
+				05812AD11FA1241A003B88DF /* Embed Frameworks */,
 				05BFED281F6399D400A6909E /* Resources */,
-				05812A721FA109AD003B88DF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				05812A761FA109C5003B88DF /* PBXTargetDependency */,
 				051463B11F84C50C0063A11F /* PBXTargetDependency */,
+				05812AD01FA12419003B88DF /* PBXTargetDependency */,
 			);
 			name = "ISOBMFF-Explorer";
 			productName = "ISOBMFF-Explorer";
@@ -385,10 +386,10 @@
 			name = ISOBMFF;
 			targetProxy = 051463B01F84C50C0063A11F /* PBXContainerItemProxy */;
 		};
-		05812A761FA109C5003B88DF /* PBXTargetDependency */ = {
+		05812AD01FA12419003B88DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GitHubUpdates;
-			targetProxy = 05812A751FA109C5003B88DF /* PBXContainerItemProxy */;
+			targetProxy = 05812ACF1FA12419003B88DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -554,6 +555,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
@@ -780,6 +782,7 @@
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "APPSTORE=1";
 				GCC_STRICT_ALIASING = YES;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
@@ -818,6 +821,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPSTORE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 			};

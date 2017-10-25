@@ -23,11 +23,20 @@
  ******************************************************************************/
 
 import Cocoa
+
+#if APPSTORE
+#else
 import GitHubUpdates
+#endif
 
 @NSApplicationMain class ApplicationDelegate: NSObject, NSApplicationDelegate
 {
-    @objc @IBOutlet private dynamic var updater: GitHubUpdater?
+    #if APPSTORE
+    #else
+    @objc private dynamic var updater: GitHubUpdater?
+    #endif
+    
+    @objc @IBOutlet private dynamic var updateMenuItem: NSMenuItem?
     
     @objc private dynamic var aboutWindowController: AboutWindowController?
     @objc private dynamic var controllers:           [ FileWindowController ] = []
@@ -52,6 +61,19 @@ import GitHubUpdates
     func applicationDidFinishLaunching( _ notification: Notification )
     {
         self.openDocument( nil )
+        
+        #if APPSTORE
+        
+        self.updateMenuItem?.isHidden = true
+        
+        #else
+        
+        self.updater                = GitHubUpdater()
+        self.updater?.user          = "DigiDNA"
+        self.updater?.repository    = "ISOBMFF-Explorer"
+        self.updateMenuItem?.target = self.updater
+        self.updateMenuItem?.action = #selector( self.updater?.checkForUpdates( _ : ) )
+        
         self.updater?.checkForUpdatesInBackground()
         
         Timer.scheduledTimer( withTimeInterval: 3600, repeats: true )
@@ -60,6 +82,8 @@ import GitHubUpdates
             
             self.updater?.checkForUpdatesInBackground()
         }
+        
+        #endif
     }
     
     // MARK: Actions
