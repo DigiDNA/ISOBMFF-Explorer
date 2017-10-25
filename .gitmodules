@@ -10,3 +10,6 @@
 [submodule "Submodules/ISOBMFF"]
 	path = Submodules/ISOBMFF
 	url = https://github.com/DigiDNA/ISOBMFF.git
+[submodule "Submodules/GitHubUpdates"]
+	path = Submodules/GitHubUpdates
+	url = https://github.com/macmade/GitHubUpdates.git

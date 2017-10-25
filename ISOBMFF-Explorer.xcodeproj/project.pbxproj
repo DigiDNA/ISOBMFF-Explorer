@@ -10,6 +10,8 @@
 		0510C04E1F670716006920B4 /* StringIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */; };
 		0510C04F1F670716006920B4 /* StringIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */; };
 		051463B21F84C5110063A11F /* libISOBMFF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 051463AB1F84C5010063A11F /* libISOBMFF.a */; };
+		05812A711FA109A9003B88DF /* GitHubUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; };
+		05812A741FA109C0003B88DF /* GitHubUpdates.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		05AF34F61F6439A6001F54CF /* BoxItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05AF34F51F6439A6001F54CF /* BoxItem.mm */; };
 		05AF35031F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */; };
 		05AF35181F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */; };
@@ -51,7 +53,41 @@
 			remoteGlobalIDString = 0515C8AE1F2A71A8003B8594;
 			remoteInfo = ISOBMFF;
 		};
+		05812A6B1FA10986003B88DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05F82B251EF32EA700EC8A93;
+			remoteInfo = GitHubUpdates;
+		};
+		05812A6D1FA10986003B88DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0555EBA01EF3DDA10016167F;
+			remoteInfo = Relauncher;
+		};
+		05812A751FA109C5003B88DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F82B241EF32EA700EC8A93;
+			remoteInfo = GitHubUpdates;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05812A721FA109AD003B88DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05812A741FA109C0003B88DF /* GitHubUpdates.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsNotEmptyValueTransformer.swift; sourceTree = "<group>"; };
@@ -59,6 +95,7 @@
 		051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ISOBMFF.xcodeproj; path = Submodules/ISOBMFF/ISOBMFF.xcodeproj; sourceTree = "<group>"; };
 		051F4D1A1F5DD03700E6E12C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		057759011F67CF6500987694 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitHubUpdates.xcodeproj; path = Submodules/GitHubUpdates/GitHubUpdates.xcodeproj; sourceTree = "<group>"; };
 		05AF34F41F6439A6001F54CF /* BoxItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxItem.h; sourceTree = "<group>"; };
 		05AF34F51F6439A6001F54CF /* BoxItem.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BoxItem.mm; sourceTree = "<group>"; };
 		05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryIsNotEmptyValueTransformer.swift; sourceTree = "<group>"; };
@@ -80,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05812A711FA109A9003B88DF /* GitHubUpdates.framework in Frameworks */,
 				051463B21F84C5110063A11F /* libISOBMFF.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +138,7 @@
 		0515C8A61F2A71A8003B8594 = {
 			isa = PBXGroup;
 			children = (
+				05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */,
 				051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */,
 				051F4D1A1F5DD03700E6E12C /* README.md */,
 				057759011F67CF6500987694 /* LICENSE */,
@@ -113,6 +152,15 @@
 			isa = PBXGroup;
 			children = (
 				05BFED2A1F6399D400A6909E /* ISOBMFF-Explorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05812A671FA10986003B88DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05812A6C1FA10986003B88DF /* GitHubUpdates.framework */,
+				05812A6E1FA10986003B88DF /* Relauncher */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,10 +229,12 @@
 				05BFED271F6399D400A6909E /* Frameworks */,
 				05812A631FA108B1003B88DF /* ShellScript */,
 				05BFED281F6399D400A6909E /* Resources */,
+				05812A721FA109AD003B88DF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				05812A761FA109C5003B88DF /* PBXTargetDependency */,
 				051463B11F84C50C0063A11F /* PBXTargetDependency */,
 			);
 			name = "ISOBMFF-Explorer";
@@ -221,6 +271,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 05812A671FA10986003B88DF /* Products */;
+					ProjectRef = 05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */;
+				},
+				{
 					ProductGroup = 051463A41F84C5010063A11F /* Products */;
 					ProjectRef = 051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */;
 				},
@@ -252,6 +306,20 @@
 			fileType = "compiled.mach-o.executable";
 			path = "ISOBMFF-Dump";
 			remoteRef = 051463AE1F84C5010063A11F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05812A6C1FA10986003B88DF /* GitHubUpdates.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GitHubUpdates.framework;
+			remoteRef = 05812A6B1FA10986003B88DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05812A6E1FA10986003B88DF /* Relauncher */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Relauncher;
+			remoteRef = 05812A6D1FA10986003B88DF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -309,6 +377,11 @@
 			isa = PBXTargetDependency;
 			name = ISOBMFF;
 			targetProxy = 051463B01F84C50C0063A11F /* PBXContainerItemProxy */;
+		};
+		05812A761FA109C5003B88DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GitHubUpdates;
+			targetProxy = 05812A751FA109C5003B88DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

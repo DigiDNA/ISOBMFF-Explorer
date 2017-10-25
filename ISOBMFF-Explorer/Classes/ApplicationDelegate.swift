@@ -23,9 +23,12 @@
  ******************************************************************************/
 
 import Cocoa
+import GitHubUpdates
 
 @NSApplicationMain class ApplicationDelegate: NSObject, NSApplicationDelegate
 {
+    @objc @IBOutlet private dynamic var updater: GitHubUpdater?
+    
     @objc private dynamic var aboutWindowController: AboutWindowController?
     @objc private dynamic var controllers:           [ FileWindowController ] = []
     
@@ -49,6 +52,14 @@ import Cocoa
     func applicationDidFinishLaunching( _ notification: Notification )
     {
         self.openDocument( nil )
+        self.updater?.checkForUpdatesInBackground()
+        
+        Timer.scheduledTimer( withTimeInterval: 3600, repeats: true )
+        {
+            ( timer: Timer ) -> Void in
+            
+            self.updater?.checkForUpdatesInBackground()
+        }
     }
     
     // MARK: Actions
