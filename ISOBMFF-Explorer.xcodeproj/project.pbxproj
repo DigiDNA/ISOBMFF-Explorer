@@ -23,6 +23,7 @@
 		052342101FA12EDA00D54D4F /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 05DFC7CF1F855FBF002E9F6A /* Icon.icns */; };
 		052342111FA12EDA00D54D4F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFED3C1F639A5C00A6909E /* MainMenu.xib */; };
 		052342121FA12EDA00D54D4F /* ISOBMFF_Explorer.FileWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFED461F639D7F00A6909E /* ISOBMFF_Explorer.FileWindowController.xib */; };
+		05738E471FA1F35900D2B96A /* AppInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 05738E461FA1F35900D2B96A /* AppInstaller.m */; };
 		05812ACD1FA12419003B88DF /* GitHubUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; };
 		05812ACE1FA12419003B88DF /* GitHubUpdates.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05812A6C1FA10986003B88DF /* GitHubUpdates.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		05AF34F61F6439A6001F54CF /* BoxItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05AF34F51F6439A6001F54CF /* BoxItem.mm */; };
@@ -97,16 +98,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0523420C1FA12EDA00D54D4F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		05812AD11FA1241A003B88DF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +117,8 @@
 		051463A31F84C5010063A11F /* ISOBMFF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ISOBMFF.xcodeproj; path = Submodules/ISOBMFF/ISOBMFF.xcodeproj; sourceTree = "<group>"; };
 		051F4D1A1F5DD03700E6E12C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		052342161FA12EDA00D54D4F /* ISOBMFF Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISOBMFF Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05738E421FA1F35900D2B96A /* AppInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInstaller.h; sourceTree = "<group>"; };
+		05738E461FA1F35900D2B96A /* AppInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInstaller.m; sourceTree = "<group>"; };
 		057759011F67CF6500987694 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		05812A661FA10986003B88DF /* GitHubUpdates.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitHubUpdates.xcodeproj; path = Submodules/GitHubUpdates/GitHubUpdates.xcodeproj; sourceTree = "<group>"; };
 		05812A811FA1217F003B88DF /* ISOBMFF-Explorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ISOBMFF-Explorer.entitlements"; sourceTree = "<group>"; };
@@ -239,16 +232,18 @@
 		05BFED3E1F639A5C00A6909E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				05BFED491F639F6200A6909E /* Bridging-Header.h */,
 				05BFED4A1F639F6300A6909E /* AboutWindowController.swift */,
+				05738E421FA1F35900D2B96A /* AppInstaller.h */,
+				05738E461FA1F35900D2B96A /* AppInstaller.m */,
 				05BFED4E1F63A05100A6909E /* ApplicationDelegate.swift */,
-				05BFED511F63A22F00A6909E /* FileWindowController.swift */,
-				05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */,
-				05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */,
-				0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */,
-				0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */,
 				05AF34F41F6439A6001F54CF /* BoxItem.h */,
 				05AF34F51F6439A6001F54CF /* BoxItem.mm */,
+				05BFED491F639F6200A6909E /* Bridging-Header.h */,
+				05AF35171F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift */,
+				05AF35021F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift */,
+				05BFED511F63A22F00A6909E /* FileWindowController.swift */,
+				0510C04D1F670715006920B4 /* StringIsEmptyValueTransformer.swift */,
+				0510C04C1F670715006920B4 /* StringIsNotEmptyValueTransformer.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -271,7 +266,6 @@
 				052341FF1FA12EDA00D54D4F /* Sources */,
 				052342081FA12EDA00D54D4F /* Frameworks */,
 				0523420B1FA12EDA00D54D4F /* ShellScript */,
-				0523420C1FA12EDA00D54D4F /* Embed Frameworks */,
 				0523420E1FA12EDA00D54D4F /* Resources */,
 			);
 			buildRules = (
@@ -480,6 +474,7 @@
 				05BFED4B1F639F6300A6909E /* AboutWindowController.swift in Sources */,
 				05BFED521F63A22F00A6909E /* FileWindowController.swift in Sources */,
 				05BFED4F1F63A05100A6909E /* ApplicationDelegate.swift in Sources */,
+				05738E471FA1F35900D2B96A /* AppInstaller.m in Sources */,
 				05AF35031F6446B9001F54CF /* DictionaryIsNotEmptyValueTransformer.swift in Sources */,
 				05AF35181F6449BF001F54CF /* DictionaryIsEmptyValueTransformer.swift in Sources */,
 				0510C04E1F670716006920B4 /* StringIsNotEmptyValueTransformer.swift in Sources */,
