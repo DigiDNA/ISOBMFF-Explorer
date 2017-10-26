@@ -86,7 +86,7 @@ import Cocoa
         
         for textView in [ self.dataTextView, self.asciiTextView ]
         {
-            textView?.font               = NSFont( name: "Consolas", size: 12 )
+            textView?.font               = NSFont.userFixedPitchFont( ofSize: 12 )
             textView?.textContainerInset = NSSize( width: 10, height: 10 )
         }
     }
