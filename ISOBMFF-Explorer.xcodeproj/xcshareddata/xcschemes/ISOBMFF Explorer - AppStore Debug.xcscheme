@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "05BFED291F6399D400A6909E"
+               BlueprintIdentifier = "052341FA1FA12EDA00D54D4F"
                BuildableName = "ISOBMFF Explorer.app"
-               BlueprintName = "ISOBMFF Explorer"
+               BlueprintName = "ISOBMFF Explorer - AppStore"
                ReferencedContainer = "container:ISOBMFF-Explorer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -75,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "05BFED291F6399D400A6909E"
+            BlueprintIdentifier = "052341FA1FA12EDA00D54D4F"
             BuildableName = "ISOBMFF Explorer.app"
-            BlueprintName = "ISOBMFF Explorer"
+            BlueprintName = "ISOBMFF Explorer - AppStore"
             ReferencedContainer = "container:ISOBMFF-Explorer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -322,7 +322,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -806,6 +806,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "ISOBMFF-Explorer/ISOBMFF-Explorer.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5PR93692Y;
 				HEADER_SEARCH_PATHS = (
@@ -826,6 +827,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "ISOBMFF-Explorer/ISOBMFF-Explorer.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5PR93692Y;
 				HEADER_SEARCH_PATHS = (
@@ -845,6 +847,7 @@
 		05BFED391F6399D400A6909E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5PR93692Y;
 				HEADER_SEARCH_PATHS = (
@@ -863,6 +866,7 @@
 		05BFED3A1F6399D400A6909E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5PR93692Y;
 				HEADER_SEARCH_PATHS = (
