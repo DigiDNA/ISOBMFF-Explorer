@@ -1,0 +1,4 @@
+language: objective-c
+osx_image: xcode9.1
+script:
+    - xcodebuild build -project ISOBMFF-Explorer.xcodeproj -scheme "ISOBMFF Explorer - Release"
