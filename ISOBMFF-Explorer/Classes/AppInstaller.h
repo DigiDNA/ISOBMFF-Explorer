@@ -23,12 +23,27 @@
  ******************************************************************************/
 
 /*!
- * @header      Bridging-Header.h
+ * @header      AppInstaller.h
  * @copyright   (c) 2017, Jean-David Gadina - www.xs-labs.com / www.imazing.com
+ * @discussion  Adapted from "LetsMove" by PotionFactory:
+ *              https://github.com/potionfactory/LetsMove
  */
 
-#import "BoxItem.h"
+@import Cocoa;
 
-#ifndef APPSTORE
-#include "AppInstaller.h"
-#endif
+NS_ASSUME_NONNULL_BEGIN
+
+typedef NS_ENUM( NSInteger, AppInstallerStatus )
+{
+    AppInstallerStatusNoInstallNecessary    = 0x00,
+    AppInstallerStatusInstallSucessfull     = 0x01,
+    AppInstallerStatusInstallError          = 0x02
+};
+
+@interface AppInstaller: NSObject
+
++ ( AppInstallerStatus )installIfNecessary;
+
+@end
+
+NS_ASSUME_NONNULL_END

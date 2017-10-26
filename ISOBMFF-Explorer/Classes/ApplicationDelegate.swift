@@ -60,13 +60,14 @@ import GitHubUpdates
     
     func applicationDidFinishLaunching( _ notification: Notification )
     {
-        self.openDocument( nil )
         
         #if APPSTORE
         
         self.updateMenuItem?.isHidden = true
         
         #else
+        
+        AppInstaller.installIfNecessary()
         
         self.updater                = GitHubUpdater()
         self.updater?.user          = "DigiDNA"
@@ -84,6 +85,8 @@ import GitHubUpdates
         }
         
         #endif
+        
+        self.openDocument( nil )
     }
     
     // MARK: Actions
