@@ -93,7 +93,7 @@ import Cocoa
     
     // MARK: NSTextFieldDelegate
     
-    override func controlTextDidChange( _ obj: Notification )
+    func controlTextDidChange( _ obj: Notification )
     {
         if( self.searchField?.stringValue.count == 0 )
         {
