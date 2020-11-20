@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.3</string>
+	<string>1.0.5</string>
 	<key>CFBundleVersion</key>
-	<string>33</string>
+	<string>35</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
@@ -27,7 +27,7 @@
 	<key>MDItemKeywords</key>
 	<string>image, video, iso, media, file, format, mpeg, mp4, heif, heiv, heic, parser, quicktime, gui</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017 DigiDNA. All rights reserved.</string>
+	<string>Copyright © 2020 DigiDNA. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

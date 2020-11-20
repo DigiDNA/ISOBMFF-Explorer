@@ -59,8 +59,6 @@ import Cocoa
     {
         super.windowDidLoad()
         
-        self.window?.titlebarAppearsTransparent    = true
-        self.window?.titleVisibility               = .hidden
         self.window?.title                         = self.file ?? ""
         self.dictionaryController?.sortDescriptors = [ NSSortDescriptor( key: "key", ascending: true ) ]
         
