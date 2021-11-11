@@ -1,12 +1,11 @@
 ISOBMFF-Explorer
 ================
 
-[![Build Status](https://img.shields.io/travis/DigiDNA/ISOBMFF-Explorer.svg?branch=master&style=flat)](https://travis-ci.org/DigiDNA/ISOBMFF-Explorer)
-[![Coverage Status](https://img.shields.io/coveralls/DigiDNA/ISOBMFF-Explorer.svg?branch=master&style=flat)](https://coveralls.io/r/DigiDNA/ISOBMFF-Explorer?branch=master)
-[![Issues](http://img.shields.io/github/issues/DigiDNA/ISOBMFF-Explorer.svg?style=flat)](https://github.com/DigiDNA/ISOBMFF-Explorer/issues)
-![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)
-![License](https://img.shields.io/badge/license-mit-brightgreen.svg?style=flat)
-[![Contact](https://img.shields.io/badge/contact-@DigiDNA-blue.svg?style=flat)](https://twitter.com/DigiDNA)  
+[![Build Status](https://img.shields.io/github/workflow/status/DigiDNA/ISOBMFF-Explorer/ci-mac?label=macOS&logo=apple)](https://github.com/DigiDNA/ISOBMFF-Explorer/actions/workflows/ci-mac.yaml)
+[![Issues](http://img.shields.io/github/issues/DigiDNA/ISOBMFF-Explorer.svg?logo=github)](https://github.com/DigiDNA/ISOBMFF-Explorer/issues)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg?logo=git)
+![License](https://img.shields.io/badge/license-mit-brightgreen.svg?logo=open-source-initiative)  
+[![Contact](https://img.shields.io/badge/follow-@digidna-blue.svg?logo=twitter&style=social)](https://twitter.com/digidna)
 
 Introspection utility for files in the ISO Base Media File Format
 -----------------------------------------------------------------
